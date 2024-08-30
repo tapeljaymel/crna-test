@@ -9,8 +9,9 @@ const NavBar: React.FC = () => {
   return (
     <nav className="bg-gray-800 text-white shadow-md px-4 md:px-10">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+
         <Link to="/" className="text-lg font-semibold hover:text-gray-300">
-          Home
+          CRNA Map
         </Link>
         <div className="flex space-x-4">
           {isLoggedIn && (
